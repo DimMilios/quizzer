@@ -1,0 +1,5292 @@
+{
+    Document {
+    Heading {
+        RawText: "AWS Lambda"
+        HasBlankPreviousLines: true
+        Level: 2
+        Text: "AWS Lambda"
+    }
+    Heading {
+        RawText: "Q1. How can you increase the CPU resources for your Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q1. How can you increase the CPU resources for your Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Increase the configured CPU value"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Increase the configured CPU value"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Increase the configured timeout value"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Increase the configured timeout value"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Increase the configured memory value"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Increase the configured memory value"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Increase the configured concurrency value"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Increase the configured concurrency value"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q2. How can additional code or content be provided for your Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q2. How can additional code or content be provided for your Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] blocks"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "blocks"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] layers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "layers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] aliases"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "aliases"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] handlers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "handlers"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q3. How can Step Functions call Lambdas?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q3. How can Step Functions call Lambdas?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] in sequence"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "in sequence"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] both of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "both of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] neither of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "neither of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] in parallel"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "in parallel"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q4. Which AWS CLI command invokes a function?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q4. Which AWS CLI command invokes a function?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] aws lambda invoke --function ReturnBucketName outputfile.txt"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "aws lambda invoke --function ReturnBucketName outputfile.txt"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] aws lambda execute --function-name ReturnBucketName outputfile.txt"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "aws lambda execute --function-name ReturnBucketName outputfile.txt"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] aws lambda invoke --function-name ReturnBucketName outputfile.txt"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "aws lambda invoke --function-name ReturnBucketName outputfile.txt"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] aws lambda execute --function ReturnBucketName outputfile.txt"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "aws lambda execute --function ReturnBucketName outputfile.txt"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q5. What adds tracing capabilities to a Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q5. What adds tracing capabilities to a Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Trace"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Trace"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudStack"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudStack"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudTrail"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudTrail"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] AWS X-Ray"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "AWS X-Ray"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q6. You need to build a continuous integration/deployment pipeline for a set of Lambdas. What should you do?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q6. You need to build a continuous integration/deployment pipeline for a set of Lambdas. What should you do?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create configuration files and deploy them using AWS CodePipeline."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create configuration files and deploy them using AWS CodePipeline."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create CloudFormation templates and deploy them using AWS CodeBuild"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create CloudFormation templates and deploy them using AWS CodeBuild"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create configuration file and deploy using AWS CodeBuild"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create configuration file and deploy using AWS CodeBuild"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Create CloudFormation templates and deploy them using AWS CodePipeline."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Create CloudFormation templates and deploy them using AWS CodePipeline."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q7. What can you use to monitor function invocations?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q7. What can you use to monitor function invocations?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] API Gateway"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "API Gateway"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] S3"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "S3"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] SAS"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "SAS"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] CloudTrail"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "CloudTrail"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q8. It is AWS best practice to enable Lambda logging by which of these methods."
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q8. It is AWS best practice to enable Lambda logging by which of these methods."
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Use S3 metrics and CloudWatch alarms"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Use S3 metrics and CloudWatch alarms"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create custom metrics within your Lambda code."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create custom metrics within your Lambda code."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create custom metrics within your CloudWatch code."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create custom metrics within your CloudWatch code."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Use Lambda metrics and CloudWatch alarms."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Use Lambda metrics and CloudWatch alarms."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q9. What may be provided for environment variables?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q9. What may be provided for environment variables?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] an SSL certificate"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "an SSL certificate"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a bitmask"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a bitmask"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] an AWS KMS key"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "an AWS KMS key"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] an HTTP protocol"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "an HTTP protocol"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q10. Lambdas allow for running of what other things?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q10. Lambdas allow for running of what other things?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] binaries."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "binaries."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] all of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "all of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] executables"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "executables"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Shell scripts"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Shell scripts"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q11. In what style must you write Lambda code?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q11. In what style must you write Lambda code?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] MVC"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "MVC"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] virtual"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "virtual"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] stateless"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "stateless"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] protocol"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "protocol"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q12. How can a developer provide Lambda code?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q12. How can a developer provide Lambda code?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] by uploading a .zip file"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "by uploading a .zip file"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] all of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "all of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] by editing inline"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "by editing inline"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] from an S3 bucket"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "from an S3 bucket"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q13. You are performance-testing your Lambda to verify that you set the memory size adequately. Where do you verify the execution overhead?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q13. You are performance-testing your Lambda to verify that you set the memory size adequately. Where do you verify the execution overhead?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CLoudWatch logs"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CLoudWatch logs"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] DynamoDB logs"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "DynamoDB logs"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] S3 logs"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "S3 logs"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Lambda logs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Lambda logs."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q14. What facilitates continuous delivery of Lambdas?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q14. What facilitates continuous delivery of Lambdas?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CodeStack"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CodeStack"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] ElasticStack"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "ElasticStack"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Mobile Hub"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Mobile Hub"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] CodeDeploy"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "CodeDeploy"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q15. How are computing resources allocated to Lambdas?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q15. How are computing resources allocated to Lambdas?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] proportionally"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "proportionally"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] equally"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "equally"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] periodically"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "periodically"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] daily"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "daily"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q16. You can restrict the scope of a user's permissions by specifying which two items in an IAM policy?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q16. You can restrict the scope of a user's permissions by specifying which two items in an IAM policy?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] resources and users"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "resources and users"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] resources and conditions"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "resources and conditions"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] events and users"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "events and users"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] events and conditions"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "events and conditions"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q17. What does Lambda logging include?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q17. What does Lambda logging include?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] logging streams"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "logging streams"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] rotating streams"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "rotating streams"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] logging events"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "logging events"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] advancing log groups"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "advancing log groups"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q18. What can AWS Amplify NOT do for a Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q18. What can AWS Amplify NOT do for a Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] create a Lambda"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "create a Lambda"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] be an event source"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "be an event source"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] assign an IAM role"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "assign an IAM role"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] delete a Lambda"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "delete a Lambda"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q19. How do you author a Lambda in a programming language that AWS does not support?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q19. How do you author a Lambda in a programming language that AWS does not support?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create a Lambda function with a custom runtime and reference the function in your Lambda"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create a Lambda function with a custom runtime and reference the function in your Lambda"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Create a Lambda layer with a custom runtime and reference the layer in your lambda"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Create a Lambda layer with a custom runtime and reference the layer in your lambda"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] You cannot use Lambda in this situation"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "You cannot use Lambda in this situation"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create a Lambda function with a custom runtime"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create a Lambda function with a custom runtime"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q20. What are listed downstream resources based on?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q20. What are listed downstream resources based on?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] the execution policy"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "the execution policy"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] the Lambda configuration"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "the Lambda configuration"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] the Lambda nodes"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "the Lambda nodes"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] the IAM user"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "the IAM user"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q21. Which is an equivalent and valid tag for a pair of Lambdas?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q21. Which is an equivalent and valid tag for a pair of Lambdas?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] department:Sales,department:Sales"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "department:Sales,department:Sales"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] department:Sales,department:sales"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "department:Sales,department:sales"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] aws:demo;aws:demo"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "aws:demo;aws:demo"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] aws:demo;aws:DEMO"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "aws:demo;aws:DEMO"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q22. Outbound connections from Lambdas must be `_`."
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q22. Outbound connections from Lambdas must be "
+        CodeSpan {
+            Text(Raw): "_"
+        }
+        Text: "."
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] neither of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "neither of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] UDP/IP"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "UDP/IP"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] TCP/IP"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "TCP/IP"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] both of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "both of these answers"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q23. How are CloudWatch actions configured?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q23. How are CloudWatch actions configured?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] automatically"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "automatically"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] none of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "none of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] manually"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "manually"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] ad hoc"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "ad hoc"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q24. You are testing your stream-based application and the associated Lambda. AWS best practice advises you to test by varying what?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q24. You are testing your stream-based application and the associated Lambda. AWS best practice advises you to test by varying what?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] stream and record sizes"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "stream and record sizes"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] stream and shard sizes"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "stream and shard sizes"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] batch and record sizes"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "batch and record sizes"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] batch and shard sizes"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "batch and shard sizes"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q25. You need to make your Lambda available to services in multiple VPCs. What do you do?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q25. You need to make your Lambda available to services in multiple VPCs. What do you do?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Place each subnet in a VPC. Associate all subnets to your Lambda."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Place each subnet in a VPC. Associate all subnets to your Lambda."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Place all subnets in a VPC. Associate all subnets to your Lambda."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Place all subnets in a VPC. Associate all subnets to your Lambda."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Configure your Lambda to be available to multiple VPCs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Configure your Lambda to be available to multiple VPCs."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Configure all application VPCs to be peered."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Configure all application VPCs to be peered."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q26. How is the cost associated with Lambda function calculated?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q26. How is the cost associated with Lambda function calculated?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] number of function calls"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "number of function calls"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] amount of code run"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "amount of code run"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] compute time"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "compute time"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] amount of infrastructure used"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "amount of infrastructure used"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q27. What is the fastest way to get started with Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q27. What is the fastest way to get started with Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Author a Lambda from scratch."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Author a Lambda from scratch."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Use a blueprint."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Use a blueprint."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Use a .zip deployment package."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Use a .zip deployment package."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Use the serverless app repository."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Use the serverless app repository."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q28. Where is the disk space allocated for Lambda functions?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q28. Where is the disk space allocated for Lambda functions?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] /tmp"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "/tmp"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] /default"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "/default"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] /temp"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "/temp"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] /ds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "/ds"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q29. How do you stop a running Lambda that is stuck in a recursive loop?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q29. How do you stop a running Lambda that is stuck in a recursive loop?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Delete the function."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Delete the function."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Set the function concurrent execution limit to 0 while you update the code."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Set the function concurrent execution limit to 0 while you update the code."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Reset the function."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Reset the function."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Set the function concurrent execution limit to 100 while you update the code."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Set the function concurrent execution limit to 100 while you update the code."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q30. What is AWS best practice for Lambda configuration?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q30. What is AWS best practice for Lambda configuration?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Overprovision memory and your function timeout settings to run your functions faster and reduce your costs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Overprovision memory and your function timeout settings to run your functions faster and reduce your costs."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q31. Basic Lambda permissions include permissions for what?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q31. Basic Lambda permissions include permissions for what?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] removing log groups"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "removing log groups"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] none of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "none of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] creating log groups"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "creating log groups"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] updating log groups"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "updating log groups"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q32. How are environment variables stored?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q32. How are environment variables stored?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] DynamoDB tables"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "DynamoDB tables"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] key-value pairs"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "key-value pairs"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] S3 buckets"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "S3 buckets"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] none of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "none of these answers"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q33. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q33. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] S3"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "S3"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] API Gateway"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "API Gateway"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] X-Ray"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "X-Ray"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] DynamoDB"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "DynamoDB"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q34. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q34. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] in the Lambda function code"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "in the Lambda function code"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] in a Lambda environment variable"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "in a Lambda environment variable"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] in the Lambda tags"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "in the Lambda tags"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] in another S3 bucket"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "in another S3 bucket"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q35. What action is needed before you can test a Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q35. What action is needed before you can test a Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Deploy the Lambda"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Deploy the Lambda"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Export the function"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Export the function"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] none of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "none of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Configure a test event"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Configure a test event"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q36. What kind of packages can you use with Node.js for Lambdas?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q36. What kind of packages can you use with Node.js for Lambdas?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Fleece"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Fleece"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] NPM"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "NPM"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] none of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "none of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Pod"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Pod"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q37. Lambdas are monitored by default using which service?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q37. Lambdas are monitored by default using which service?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudTrail"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudTrail"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] CloudWatch"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "CloudWatch"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudFormation"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudFormation"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] LogWatch"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "LogWatch"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q38. What can trigger a Lambda function execution?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q38. What can trigger a Lambda function execution?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a table definition"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a table definition"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] queue isolation"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "queue isolation"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] STS Write"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "STS Write"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] an SNS topic"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "an SNS topic"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q39. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q39. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] POST"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "POST"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] "All object create events""
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: ""All object create events""
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] PUT"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "PUT"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] COPY"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "COPY"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q40. To make Lambdas more testable, it is AWS best practice to separate which of these?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q40. To make Lambdas more testable, it is AWS best practice to separate which of these?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Lambda configuration from logging code"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Lambda configuration from logging code"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Lambda handler from logging code"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Lambda handler from logging code"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Lambda handler from core logic"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Lambda handler from core logic"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Lambda configuration from core logic"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Lambda configuration from core logic"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q41. What is included in an exported Lambda deployment package?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q41. What is included in an exported Lambda deployment package?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] YAML definition"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "YAML definition"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudFormation stack configuration"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudFormation stack configuration"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] SAML deployment stack"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "SAML deployment stack"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Zip file of all related files"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Zip file of all related files"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q42. When can you change the execution role of a Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q42. When can you change the execution role of a Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] only at creation"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "only at creation"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] only before deployment"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "only before deployment"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] never"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "never"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] anytime via configuration"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "anytime via configuration"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q43. What is the relationship between SAM template and CloudFormation template files?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q43. What is the relationship between SAM template and CloudFormation template files?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] SAM templates are a different name for CloudFormation templates. Both template types include the same resource types."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "SAM templates are a different name for CloudFormation templates. Both template types include the same resource types."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q44. What service deploys Lambdas regionally?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q44. What service deploys Lambdas regionally?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] EdgeCloud"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "EdgeCloud"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudEdge"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudEdge"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] CloudFront"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "CloudFront"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] CloudStack"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "CloudStack"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q45. What programming language does AWS Lambda support?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q45. What programming language does AWS Lambda support?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] custom"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "custom"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] all of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "all of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Java"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Java"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Ruby"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Ruby"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q46. You need to setup a mechanism to put controls in place to notify you when you have a spike in Lambda concurrency. What should you do?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q46. You need to setup a mechanism to put controls in place to notify you when you have a spike in Lambda concurrency. What should you do?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q47. You want to minimize cold start time for your Lambda. What do you do?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q47. You want to minimize cold start time for your Lambda. What do you do?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Do nothing. AWS minimizes cols start time by default."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Do nothing. AWS minimizes cols start time by default."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Create a warm-up Lambda that calls your Lambda every minute"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Create a warm-up Lambda that calls your Lambda every minute"
+            }
+        }
+    }
+    Paragraph {
+        RawText: "[Reference](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-predictable-start-up-times-with-provisioned-concurrency/"
+        HasBlankPreviousLines: true
+        Text: "["
+        Text: "Reference"
+        Text: "](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-predictable-start-up-times-with-provisioned-concurrency/"
+    }
+    Heading {
+        RawText: "Q48. When is Lambda code stored encrypted?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q48. When is Lambda code stored encrypted?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] at rest"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "at rest"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] at runtime"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "at runtime"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] at deployment"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "at deployment"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] non of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "non of these answers"
+            }
+        }
+    }
+    Paragraph {
+        RawText: "[Reference](https://docs.aws.amazon.com/whitepapers/latest/security-overview-aws-lambda/lambda-functions-and-layers.html)"
+        HasBlankPreviousLines: true
+        Link {
+            Title: 
+            Destination: https://docs.aws.amazon.com/whitepapers/latest/security-overview-aws-lambda/lambda-functions-and-layers.html
+            Text: "Reference"
+        }
+    }
+    Heading {
+        RawText: "Q49. When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q49. When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] at the function level"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "at the function level"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] at the alias or function level"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "at the alias or function level"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] at the version, alias, or function level"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "at the version, alias, or function level"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] at the version or function level"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "at the version or function level"
+            }
+        }
+    }
+    Paragraph {
+        RawText: "[Reference](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html)"
+        HasBlankPreviousLines: true
+        Link {
+            Destination: https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html
+            Title: 
+            Text: "Reference"
+        }
+    }
+    Heading {
+        RawText: "Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Kinesis, S3, and SQS"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Kinesis, S3, and SQS"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Kinesis, S3, and SNS"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Kinesis, S3, and SNS"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Kinesis, DynamoDB, and SNS"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Kinesis, DynamoDB, and SNS"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Kinesis, DynamoDB, and SQS"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Kinesis, DynamoDB, and SQS"
+            }
+        }
+    }
+    Paragraph {
+        RawText: "**Explanation**"
+        HasBlankPreviousLines: true
+        Emphasis {
+            Level: 2
+            Text: "Explanation"
+        }
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "`Lambda can used for all services mentioned on the question: Kinesis, S3, SNS, SQS, DynamoDB. But as you can see in the reference, Lambda's responsibility and method invocation can be categorized by Lambda polling and Event Driven (synchronous invocation). When you implement an event-driven architecture, you grant the event-generating service permission to invoke your function in the function's resource-based policy. Then you configure that service to generate events that invoke your function. When you implement a Lambda polling architecture, you grant Lambda permission to access the other service in the function's execution role. Lambda reads data from the other service, creates an event, and invokes your function. According to this analytics, Kinesis-DynamoDB-SQS use same method invocation, Lambda polling.`"
+                HasBlankPreviousLines: false
+                CodeSpan {
+                    Text(Raw): "Lambda can used for all services mentioned on the question: Kinesis, S3, SNS, SQS, DynamoDB. But as you can see in the reference, Lambda's responsibility and method invocation can be categorized by Lambda polling and Event Driven (synchronous invocation). When you implement an event-driven architecture, you grant the event-generating service permission to invoke your function in the function's resource-based policy. Then you configure that service to generate events that invoke your function. When you implement a Lambda polling architecture, you grant Lambda permission to access the other service in the function's execution role. Lambda reads data from the other service, creates an event, and invokes your function. According to this analytics, Kinesis-DynamoDB-SQS use same method invocation, Lambda polling."
+                }
+            }
+        }
+    }
+    Heading {
+        RawText: "Q51. Via what can a Lambda be called?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q51. Via what can a Lambda be called?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] all of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "all of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a DynamoDB trigger"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a DynamoDB trigger"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] an API Gateway"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "an API Gateway"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] an S3 bucket event"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "an S3 bucket event"
+            }
+        }
+    }
+    Paragraph {
+        RawText: "**Explanation** (source google)"
+        HasBlankPreviousLines: true
+        Emphasis {
+            Level: 2
+            Text: "Explanation"
+        }
+        Text: " (source google)"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "`With DynamoDB Streams, you can trigger a Lambda function to perform additional work each time a DynamoDB table is updated. Lambda reads records from the stream and invokes your function synchronously with an event that contains stream records.`"
+                HasBlankPreviousLines: false
+                CodeSpan {
+                    Text(Raw): "With DynamoDB Streams, you can trigger a Lambda function to perform additional work each time a DynamoDB table is updated. Lambda reads records from the stream and invokes your function synchronously with an event that contains stream records."
+                }
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "`These events are considered synchronous events. Simply put, it means that when somebody is calling an API Gateway, it will trigger your Lambda function. It's a synchronous event because your Lambda function has to respond to the client directly at the end of its invocation.`"
+                HasBlankPreviousLines: false
+                CodeSpan {
+                    Text(Raw): "These events are considered synchronous events. Simply put, it means that when somebody is calling an API Gateway, it will trigger your Lambda function. It's a synchronous event because your Lambda function has to respond to the client directly at the end of its invocation."
+                }
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "`You can use Lambda to process event notifications from Amazon Simple Storage Service. Amazon S3 can send an event to a Lambda function when an object is created or deleted.`"
+                HasBlankPreviousLines: false
+                CodeSpan {
+                    Text(Raw): "You can use Lambda to process event notifications from Amazon Simple Storage Service. Amazon S3 can send an event to a Lambda function when an object is created or deleted."
+                }
+            }
+        }
+    }
+    Heading {
+        RawText: "52. which is use case of lambda ?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "52. which is use case of lambda ?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Image processing"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Image processing"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] web application"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "web application"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] both"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "both"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Neither 1st and 2nd"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Neither 1st and 2nd"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q53. Events are AWS resources that trigger the Lambda function. What data type is the SAM file Events property?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q53. Events are AWS resources that trigger the Lambda function. What data type is the SAM file Events property?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Integer"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Integer"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Float"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Float"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Array"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Array"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] String"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "String"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q54. A company is using an API built using Amazon Lambda, Amazon API Gateway, and Amazon DynamoDB in production. The developer has observed high latency during peak periods. Which approach would best resolve the issue?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q54. A company is using an API built using Amazon Lambda, Amazon API Gateway, and Amazon DynamoDB in production. The developer has observed high latency during peak periods. Which approach would best resolve the issue?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Increase the Lambda function timeout"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Increase the Lambda function timeout"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Route traffic to API Gateway using a Route 53 alias"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Route traffic to API Gateway using a Route 53 alias"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Disable payload compression for the API"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Disable payload compression for the API"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Enable API Gateway stage-level caching"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Enable API Gateway stage-level caching"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q55. The AWS Serverless Application Model (AWS SAM) is a model that \_\_\_\_ ."
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q55. The AWS Serverless Application Model (AWS SAM) is a model that \_\_\_\_ ."
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] defines serverless applications"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "defines serverless applications"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] associates permissions policies"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "associates permissions policies"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] creates Lambda functions"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "creates Lambda functions"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] packages deployment artifacts"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "packages deployment artifacts"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q56. The code that you want AWS Lambda to invoke as per some defined triggers is known as **\_**."
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q56. The code that you want AWS Lambda to invoke as per some defined triggers is known as "
+        Emphasis {
+            Level: 2
+            Text: "\_"
+        }
+        Text: "."
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] the event source"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "the event source"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] the downstream resource"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "the downstream resource"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] the log stream"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "the log stream"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] the Lambda function"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "the Lambda function"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q57. A developer has created a Lambda function to scrub real-time data of extraneous information and then send the scrubbed data to Kinesis for further processing and storage. Some of the data showing up in Kinesis seems to be inaccurate. What's the best way for the developer to debug this?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q57. A developer has created a Lambda function to scrub real-time data of extraneous information and then send the scrubbed data to Kinesis for further processing and storage. Some of the data showing up in Kinesis seems to be inaccurate. What's the best way for the developer to debug this?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Look directly at the Lambda Logs in CloudWatch"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Look directly at the Lambda Logs in CloudWatch"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Send the Lambda failures to a Dead Letter Queue"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Send the Lambda failures to a Dead Letter Queue"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Use AWS X-Ray to step through the function"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Use AWS X-Ray to step through the function"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Use Kinesis to write their own custom logging tool"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Use Kinesis to write their own custom logging tool"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q58. Lambdas can be created **\_**."
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q58. Lambdas can be created "
+        Emphasis {
+            Level: 2
+            Text: "\_"
+        }
+        Text: "."
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] All of these answers"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "All of these answers"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] From scratch"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "From scratch"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] From the app repository"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "From the app repository"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Using a blueprint"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Using a blueprint"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q59. You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q59. You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Enable tracing, rerun the lambdas, and view in the lambda console"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Enable tracing, rerun the lambdas, and view in the lambda console"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] View the logs in CloudTrail"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "View the logs in CloudTrail"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] View the logs in CloudWatch"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "View the logs in CloudWatch"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Enable tracing, rerun the Lambdas, and view in the X-Ray console"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Enable tracing, rerun the Lambdas, and view in the X-Ray console"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q60. Which tool would you use to test a Lambda locally?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q60. Which tool would you use to test a Lambda locally?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS SAM"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS SAM"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS CLI"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS CLI"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS CloudFormation"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS CloudFormation"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] AWS SAM CLI"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "AWS SAM CLI"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q61. Your function failed to execute due to a timeout. What type of error is this?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q61. Your function failed to execute due to a timeout. What type of error is this?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Caller"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Caller"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Runtime"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Runtime"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Request"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Request"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Account"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Account"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q62. A company will be modernizing their application which is currently running on Amazon Elastic Cloud Compute (EC2) instances. They have experience with scaling this infrastructure using Amazon EC2 Autoscaling. They want to move to serverless infrastructure consisting of an Amazon API Gateway that triggers Lambda functions. They are consulting you about scaling this new infrastructure. What should the company consider in order to make sure the serverless infrastructure scales to their needs?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q62. A company will be modernizing their application which is currently running on Amazon Elastic Cloud Compute (EC2) instances. They have experience with scaling this infrastructure using Amazon EC2 Autoscaling. They want to move to serverless infrastructure consisting of an Amazon API Gateway that triggers Lambda functions. They are consulting you about scaling this new infrastructure. What should the company consider in order to make sure the serverless infrastructure scales to their needs?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Enable Auto Scaling Groups for AWS Lambda to ensure that enough Lambda functions are ready to handle the incoming requests"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Enable Auto Scaling Groups for AWS Lambda to ensure that enough Lambda functions are ready to handle the incoming requests"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Throttle Lambda functions by configuring reserved concurrency, sending the excess traffic to Dead Letter Queues (DLQ) that will be handled when the request volume reduces."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Throttle Lambda functions by configuring reserved concurrency, sending the excess traffic to Dead Letter Queues (DLQ) that will be handled when the request volume reduces."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Do nothing. API Gateway and AWS Lambda are managed services that have built-in horizontal scaling, security, and high availability to handle unlimited amount of requests"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Do nothing. API Gateway and AWS Lambda are managed services that have built-in horizontal scaling, security, and high availability to handle unlimited amount of requests"
+            }
+        }
+    }
+    Paragraph {
+        RawText: "**Explanation**"
+        HasBlankPreviousLines: true
+        Emphasis {
+            Level: 2
+            Text: "Explanation"
+        }
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "`In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled.`"
+                HasBlankPreviousLines: false
+                CodeSpan {
+                    Text(Raw): "In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled."
+                }
+            }
+        }
+    }
+    Heading {
+        RawText: "Q63. Can we use pakages with AWS Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q63. Can we use pakages with AWS Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] No, AWS Lambda does not support the use of external packages."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "No, AWS Lambda does not support the use of external packages."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Yes, AWS Lambda supports the use of custom and NPM packages"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Yes, AWS Lambda supports the use of custom and NPM packages"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Lambda only supports built-in packages."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Lambda only supports built-in packages."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Packages can be used but require additional fees."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Packages can be used but require additional fees."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q64. Are AWS Lambda functions available and to what extent?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q64. Are AWS Lambda functions available and to what extent?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Lambda functions are available 24/7 without any limitations."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Lambda functions are available 24/7 without any limitations."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Lambda functions are available but may experience scheduled downtimes."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Lambda functions are available but may experience scheduled downtimes."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] AWS Lambda functions are highly available with redundancy and replications."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "AWS Lambda functions are highly available with redundancy and replications."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Lambda functions are available only during business hours."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Lambda functions are available only during business hours."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q65. Is there any default limit to be applied at a functional level?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q65. Is there any default limit to be applied at a functional level?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Yes, there is a default limit to be applied at a functional level."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Yes, there is a default limit to be applied at a functional level."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] No, there is no default limit to be applied at a functional level."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "No, there is no default limit to be applied at a functional level."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] The default limit depends on the AWS Lambda service plan."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "The default limit depends on the AWS Lambda service plan."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Functional limits are set by users during configuration."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Functional limits are set by users during configuration."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q66. How long can an AWS Lambda function execute?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q66. How long can an AWS Lambda function execute?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] 60 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "60 seconds"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] 300 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "300 seconds"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] 600 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "600 seconds"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] 30 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "30 seconds"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q67. How does AWS Lambda secure my code?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q67. How does AWS Lambda secure my code?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Lambda stores code in plaintext without encryption"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Lambda stores code in plaintext without encryption"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] AWS Lambda encrypts and stores it in Amazon S3."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "AWS Lambda encrypts and stores it in Amazon S3."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Lambda does not provide any security measures for code."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Lambda does not provide any security measures for code."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] AWS Lambda relies on third-party security tools for code protection."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "AWS Lambda relies on third-party security tools for code protection."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q68. Which languages are supported by AWS Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q68. Which languages are supported by AWS Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] Python, C#, JavaScript and Java"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "Python, C#, JavaScript and Java"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Ruby, PHP, Swift"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Ruby, PHP, Swift"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] C++ and Rust"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "C++ and Rust"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] # HTML and CSS
+In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text(SoftLineBreak): "# HTML and CSS"
+                Text: "In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q63. What does AWS Lambda mean?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q63. What does AWS Lambda mean?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) AWS Lambda is a database service offered by AWS."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) AWS Lambda is a database service offered by AWS."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] b) AWS Lambda is a serverless computing service provided by AWS."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "b) AWS Lambda is a serverless computing service provided by AWS."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) AWS Lambda is a machine learning framework developed by AWS."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) AWS Lambda is a machine learning framework developed by AWS."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) AWS Lambda is an IoT platform developed by AWS."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) AWS Lambda is an IoT platform developed by AWS."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q64. What restrictions apply to AWS Lambda function code?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q64. What restrictions apply to AWS Lambda function code?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] a) Lambda imposes restrictions on the use of outbound network connections."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "a) Lambda imposes restrictions on the use of outbound network connections."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] b) Lambda imposes restrictions on trace calls for debugging."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "b) Lambda imposes restrictions on trace calls for debugging."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) Lambda allows unlimited TCP port 25 traffic."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) Lambda allows unlimited TCP port 25 traffic."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) Lambda imposes restrictions on the execution time of functions."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) Lambda imposes restrictions on the execution time of functions."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q65. How long can an AWS Lambda function execute?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q65. How long can an AWS Lambda function execute?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) 60 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) 60 seconds"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] b) 300 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "b) 300 seconds"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) 600 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) 600 seconds"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) 30 seconds"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) 30 seconds"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q66. How does AWS Lambda secure my code?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q66. How does AWS Lambda secure my code?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Tight: true
+        Ordered: false
+        Marker: -
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) AWS Lambda stores code in plaintext without encryption."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) AWS Lambda stores code in plaintext without encryption."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] b) AWS Lambda encrypts code and stores it in Amazon S3."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "b) AWS Lambda encrypts code and stores it in Amazon S3."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) AWS Lambda does not provide any security measures for code."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) AWS Lambda does not provide any security measures for code."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) AWS Lambda relies on third-party security tools for code protection."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) AWS Lambda relies on third-party security tools for code protection."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q67. Which languages are supported by AWS Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q67. Which languages are supported by AWS Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] a) Python, C#, JavaScript, and Java"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "a) Python, C#, JavaScript, and Java"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] b) Ruby, PHP, and Swift"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "b) Ruby, PHP, and Swift"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) C++ and Rust"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) C++ and Rust"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) HTML and CSS"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) HTML and CSS"
+            }
+        }
+    }
+    Heading {
+        RawText: "Q68. What is the definition of Auto-Scaling?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q68. What is the definition of Auto-Scaling?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) Auto-Scaling is a feature that automatically scales AWS Lambda functions."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) Auto-Scaling is a feature that automatically scales AWS Lambda functions."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] b) Auto-Scaling is a feature that automatically scales AWS EC2 instances."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "b) Auto-Scaling is a feature that automatically scales AWS EC2 instances."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) Auto-Scaling is a feature that automatically scales AWS S3 storage."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) Auto-Scaling is a feature that automatically scales AWS S3 storage."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) Auto-Scaling is a feature that automatically scales AWS RDS databases."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) Auto-Scaling is a feature that automatically scales AWS RDS databases."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q69. Is the infrastructure accessible on which the AWS Lambda runs?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q69. Is the infrastructure accessible on which the AWS Lambda runs?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) Yes, users have full access to the underlying infrastructure."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) Yes, users have full access to the underlying infrastructure."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] b) No, AWS Lambda abstracts the underlying infrastructure and does not provide access."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "b) No, AWS Lambda abstracts the underlying infrastructure and does not provide access."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) Users have access to infrastructure but with limited permissions."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) Users have access to infrastructure but with limited permissions."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) Users can request access to infrastructure from AWS support."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) Users can request access to infrastructure from AWS support."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q70. Can I use packages with AWS Lambda?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q70. Can I use packages with AWS Lambda?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Marker: -
+        Tight: true
+        Ordered: false
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) No, AWS Lambda does not support the use of external packages."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) No, AWS Lambda does not support the use of external packages."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] b) Yes, AWS Lambda supports the use of custom and NPM packages."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "b) Yes, AWS Lambda supports the use of custom and NPM packages."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) AWS Lambda only supports built-in AWS packages."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) AWS Lambda only supports built-in AWS packages."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) Packages can be used but require additional fees."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) Packages can be used but require additional fees."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q71. Are AWS Lambda functions available and to what extent?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q71. Are AWS Lambda functions available and to what extent?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) AWS Lambda functions are available 24/7 without any limitations."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) AWS Lambda functions are available 24/7 without any limitations."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] b) AWS Lambda functions are available but may experience scheduled downtimes."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "b) AWS Lambda functions are available but may experience scheduled downtimes."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] c) AWS Lambda functions are highly available with redundancy and replication."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "c) AWS Lambda functions are highly available with redundancy and replication."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) AWS Lambda functions are available only during business hours."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) AWS Lambda functions are available only during business hours."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q72. Is there any default limit to be applied at a functional level?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q72. Is there any default limit to be applied at a functional level?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] a) Yes, there is a default limit applied at a functional level."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "a) Yes, there is a default limit applied at a functional level."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[x] b) No, there is no default limit applied at a functional level."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "b) No, there is no default limit applied at a functional level."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] c) The default limit depends on the AWS Lambda service plan."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "c) The default limit depends on the AWS Lambda service plan."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] d) Functional limits are set by users during configuration."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "d) Functional limits are set by users during configuration."
+            }
+        }
+    }
+    Heading {
+        RawText: "Q73. You are using lambda (with large ram allocations) to process videos uploaded to S3 and to convert from their video format to H264. However the operation fails when dealing with particularly large video files. What is the cause of this?"
+        HasBlankPreviousLines: true
+        Level: 4
+        Text: "Q73. You are using lambda (with large ram allocations) to process videos uploaded to S3 and to convert from their video format to H264. However the operation fails when dealing with particularly large video files. What is the cause of this?"
+    }
+    List {
+        RawText: ""
+        HasBlankPreviousLines: true
+        Ordered: false
+        Marker: -
+        Tight: true
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: true
+            Offset: 2
+            TextBlock {
+                RawText: "[x] The default 5 mintutes timeout."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: true
+                }
+                Text: "The default 5 mintutes timeout."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] Lambda does not allow vedio encoding."
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "Lambda does not allow vedio encoding."
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] s3 transfer bottlenecks"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "s3 transfer bottlenecks"
+            }
+        }
+        ListItem {
+            RawText: ""
+            HasBlankPreviousLines: false
+            Offset: 2
+            TextBlock {
+                RawText: "[ ] s3 cannot talk to Lambda"
+                HasBlankPreviousLines: false
+                TaskCheckBox {
+                    Checked: false
+                }
+                Text: "s3 cannot talk to Lambda"
+            }
+        }
+    }
+}
+}

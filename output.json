@@ -1,0 +1,1742 @@
+{
+  "questions": [
+    {
+      "content": "Q1. How can you increase the CPU resources for your Lambda?",
+      "answers": [
+        {
+          "content": "Increase the configured CPU value",
+          "isCorrect": false
+        },
+        {
+          "content": "Increase the configured timeout value",
+          "isCorrect": false
+        },
+        {
+          "content": "Increase the configured memory value",
+          "isCorrect": true
+        },
+        {
+          "content": "Increase the configured concurrency value",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q2. How can additional code or content be provided for your Lambda?",
+      "answers": [
+        {
+          "content": "blocks",
+          "isCorrect": false
+        },
+        {
+          "content": "layers",
+          "isCorrect": true
+        },
+        {
+          "content": "aliases",
+          "isCorrect": false
+        },
+        {
+          "content": "handlers",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q3. How can Step Functions call Lambdas?",
+      "answers": [
+        {
+          "content": "in sequence",
+          "isCorrect": false
+        },
+        {
+          "content": "both of these answers",
+          "isCorrect": true
+        },
+        {
+          "content": "neither of these answers",
+          "isCorrect": false
+        },
+        {
+          "content": "in parallel",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q4. Which AWS CLI command invokes a function?",
+      "answers": [
+        {
+          "content": "aws lambda invoke --function ReturnBucketName outputfile.txt",
+          "isCorrect": false
+        },
+        {
+          "content": "aws lambda execute --function-name ReturnBucketName outputfile.txt",
+          "isCorrect": false
+        },
+        {
+          "content": "aws lambda invoke --function-name ReturnBucketName outputfile.txt",
+          "isCorrect": true
+        },
+        {
+          "content": "aws lambda execute --function ReturnBucketName outputfile.txt",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q5. What adds tracing capabilities to a Lambda?",
+      "answers": [
+        {
+          "content": "AWS Trace",
+          "isCorrect": false
+        },
+        {
+          "content": "CloudStack",
+          "isCorrect": false
+        },
+        {
+          "content": "CloudTrail",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS X-Ray",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q6. You need to build a continuous integration/deployment pipeline for a set of Lambdas. What should you do?",
+      "answers": [
+        {
+          "content": "Create configuration files and deploy them using AWS CodePipeline.",
+          "isCorrect": false
+        },
+        {
+          "content": "Create CloudFormation templates and deploy them using AWS CodeBuild",
+          "isCorrect": false
+        },
+        {
+          "content": "Create configuration file and deploy using AWS CodeBuild",
+          "isCorrect": false
+        },
+        {
+          "content": "Create CloudFormation templates and deploy them using AWS CodePipeline.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q7. What can you use to monitor function invocations?",
+      "answers": [
+        {
+          "content": "API Gateway",
+          "isCorrect": false
+        },
+        {
+          "content": "S3",
+          "isCorrect": false
+        },
+        {
+          "content": "SAS",
+          "isCorrect": false
+        },
+        {
+          "content": "CloudTrail",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q8. It is AWS best practice to enable Lambda logging by which of these methods.",
+      "answers": [
+        {
+          "content": "Use S3 metrics and CloudWatch alarms",
+          "isCorrect": false
+        },
+        {
+          "content": "Create custom metrics within your Lambda code.",
+          "isCorrect": false
+        },
+        {
+          "content": "Create custom metrics within your CloudWatch code.",
+          "isCorrect": false
+        },
+        {
+          "content": "Use Lambda metrics and CloudWatch alarms.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q9. What may be provided for environment variables?",
+      "answers": [
+        {
+          "content": "an SSL certificate",
+          "isCorrect": false
+        },
+        {
+          "content": "a bitmask",
+          "isCorrect": false
+        },
+        {
+          "content": "an AWS KMS key",
+          "isCorrect": true
+        },
+        {
+          "content": "an HTTP protocol",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q10. Lambdas allow for running of what other things?",
+      "answers": [
+        {
+          "content": "binaries.",
+          "isCorrect": false
+        },
+        {
+          "content": "all of these answers",
+          "isCorrect": true
+        },
+        {
+          "content": "executables",
+          "isCorrect": false
+        },
+        {
+          "content": "Shell scripts",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q11. In what style must you write Lambda code?",
+      "answers": [
+        {
+          "content": "MVC",
+          "isCorrect": false
+        },
+        {
+          "content": "virtual",
+          "isCorrect": false
+        },
+        {
+          "content": "stateless",
+          "isCorrect": true
+        },
+        {
+          "content": "protocol",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q12. How can a developer provide Lambda code?",
+      "answers": [
+        {
+          "content": "by uploading a .zip file",
+          "isCorrect": false
+        },
+        {
+          "content": "all of these answers",
+          "isCorrect": true
+        },
+        {
+          "content": "by editing inline",
+          "isCorrect": false
+        },
+        {
+          "content": "from an S3 bucket",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q13. You are performance-testing your Lambda to verify that you set the memory size adequately. Where do you verify the execution overhead?",
+      "answers": [
+        {
+          "content": "CLoudWatch logs",
+          "isCorrect": false
+        },
+        {
+          "content": "DynamoDB logs",
+          "isCorrect": false
+        },
+        {
+          "content": "S3 logs",
+          "isCorrect": false
+        },
+        {
+          "content": "Lambda logs.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q14. What facilitates continuous delivery of Lambdas?",
+      "answers": [
+        {
+          "content": "CodeStack",
+          "isCorrect": false
+        },
+        {
+          "content": "ElasticStack",
+          "isCorrect": false
+        },
+        {
+          "content": "Mobile Hub",
+          "isCorrect": false
+        },
+        {
+          "content": "CodeDeploy",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q15. How are computing resources allocated to Lambdas?",
+      "answers": [
+        {
+          "content": "proportionally",
+          "isCorrect": true
+        },
+        {
+          "content": "equally",
+          "isCorrect": false
+        },
+        {
+          "content": "periodically",
+          "isCorrect": false
+        },
+        {
+          "content": "daily",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q16. You can restrict the scope of a user's permissions by specifying which two items in an IAM policy?",
+      "answers": [
+        {
+          "content": "resources and users",
+          "isCorrect": false
+        },
+        {
+          "content": "resources and conditions",
+          "isCorrect": true
+        },
+        {
+          "content": "events and users",
+          "isCorrect": false
+        },
+        {
+          "content": "events and conditions",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q17. What does Lambda logging include?",
+      "answers": [
+        {
+          "content": "logging streams",
+          "isCorrect": true
+        },
+        {
+          "content": "rotating streams",
+          "isCorrect": false
+        },
+        {
+          "content": "logging events",
+          "isCorrect": false
+        },
+        {
+          "content": "advancing log groups",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q18. What can AWS Amplify NOT do for a Lambda?",
+      "answers": [
+        {
+          "content": "create a Lambda",
+          "isCorrect": false
+        },
+        {
+          "content": "be an event source",
+          "isCorrect": true
+        },
+        {
+          "content": "assign an IAM role",
+          "isCorrect": false
+        },
+        {
+          "content": "delete a Lambda",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q19. How do you author a Lambda in a programming language that AWS does not support?",
+      "answers": [
+        {
+          "content": "Create a Lambda function with a custom runtime and reference the function in your Lambda",
+          "isCorrect": false
+        },
+        {
+          "content": "Create a Lambda layer with a custom runtime and reference the layer in your lambda",
+          "isCorrect": true
+        },
+        {
+          "content": "You cannot use Lambda in this situation",
+          "isCorrect": false
+        },
+        {
+          "content": "Create a Lambda function with a custom runtime",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q20. What are listed downstream resources based on?",
+      "answers": [
+        {
+          "content": "the execution policy",
+          "isCorrect": false
+        },
+        {
+          "content": "the Lambda configuration",
+          "isCorrect": true
+        },
+        {
+          "content": "the Lambda nodes",
+          "isCorrect": false
+        },
+        {
+          "content": "the IAM user",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q21. Which is an equivalent and valid tag for a pair of Lambdas?",
+      "answers": [
+        {
+          "content": "department:Sales,department:Sales",
+          "isCorrect": false
+        },
+        {
+          "content": "department:Sales,department:sales",
+          "isCorrect": true
+        },
+        {
+          "content": "aws:demo;aws:demo",
+          "isCorrect": false
+        },
+        {
+          "content": "aws:demo;aws:DEMO",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q22. Outbound connections from Lambdas must be _.",
+      "answers": [
+        {
+          "content": "neither of these answers",
+          "isCorrect": false
+        },
+        {
+          "content": "UDP/IP",
+          "isCorrect": false
+        },
+        {
+          "content": "TCP/IP",
+          "isCorrect": false
+        },
+        {
+          "content": "both of these answers",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q23. How are CloudWatch actions configured?",
+      "answers": [
+        {
+          "content": "automatically",
+          "isCorrect": false
+        },
+        {
+          "content": "none of these answers",
+          "isCorrect": false
+        },
+        {
+          "content": "manually",
+          "isCorrect": true
+        },
+        {
+          "content": "ad hoc",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q24. You are testing your stream-based application and the associated Lambda. AWS best practice advises you to test by varying what?",
+      "answers": [
+        {
+          "content": "stream and record sizes",
+          "isCorrect": false
+        },
+        {
+          "content": "stream and shard sizes",
+          "isCorrect": false
+        },
+        {
+          "content": "batch and record sizes",
+          "isCorrect": true
+        },
+        {
+          "content": "batch and shard sizes",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q25. You need to make your Lambda available to services in multiple VPCs. What do you do?",
+      "answers": [
+        {
+          "content": "Place each subnet in a VPC. Associate all subnets to your Lambda.",
+          "isCorrect": false
+        },
+        {
+          "content": "Place all subnets in a VPC. Associate all subnets to your Lambda.",
+          "isCorrect": false
+        },
+        {
+          "content": "Configure your Lambda to be available to multiple VPCs.",
+          "isCorrect": false
+        },
+        {
+          "content": "Configure all application VPCs to be peered.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q26. How is the cost associated with Lambda function calculated?",
+      "answers": [
+        {
+          "content": "number of function calls",
+          "isCorrect": false
+        },
+        {
+          "content": "amount of code run",
+          "isCorrect": false
+        },
+        {
+          "content": "compute time",
+          "isCorrect": true
+        },
+        {
+          "content": "amount of infrastructure used",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q27. What is the fastest way to get started with Lambda?",
+      "answers": [
+        {
+          "content": "Author a Lambda from scratch.",
+          "isCorrect": false
+        },
+        {
+          "content": "Use a blueprint.",
+          "isCorrect": true
+        },
+        {
+          "content": "Use a .zip deployment package.",
+          "isCorrect": false
+        },
+        {
+          "content": "Use the serverless app repository.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q28. Where is the disk space allocated for Lambda functions?",
+      "answers": [
+        {
+          "content": "/tmp",
+          "isCorrect": true
+        },
+        {
+          "content": "/default",
+          "isCorrect": false
+        },
+        {
+          "content": "/temp",
+          "isCorrect": false
+        },
+        {
+          "content": "/ds",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q29. How do you stop a running Lambda that is stuck in a recursive loop?",
+      "answers": [
+        {
+          "content": "Delete the function.",
+          "isCorrect": false
+        },
+        {
+          "content": "Set the function concurrent execution limit to 0 while you update the code.",
+          "isCorrect": true
+        },
+        {
+          "content": "Reset the function.",
+          "isCorrect": false
+        },
+        {
+          "content": "Set the function concurrent execution limit to 100 while you update the code.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q30. What is AWS best practice for Lambda configuration?",
+      "answers": [
+        {
+          "content": "Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings.",
+          "isCorrect": true
+        },
+        {
+          "content": "Overprovision memory and your function timeout settings to run your functions faster and reduce your costs.",
+          "isCorrect": false
+        },
+        {
+          "content": "Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs.",
+          "isCorrect": false
+        },
+        {
+          "content": "Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q31. Basic Lambda permissions include permissions for what?",
+      "answers": [
+        {
+          "content": "removing log groups",
+          "isCorrect": false
+        },
+        {
+          "content": "none of these answers",
+          "isCorrect": false
+        },
+        {
+          "content": "creating log groups",
+          "isCorrect": false
+        },
+        {
+          "content": "updating log groups",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q32. How are environment variables stored?",
+      "answers": [
+        {
+          "content": "DynamoDB tables",
+          "isCorrect": false
+        },
+        {
+          "content": "key-value pairs",
+          "isCorrect": true
+        },
+        {
+          "content": "S3 buckets",
+          "isCorrect": false
+        },
+        {
+          "content": "none of these answers",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q33. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?",
+      "answers": [
+        {
+          "content": "S3",
+          "isCorrect": false
+        },
+        {
+          "content": "API Gateway",
+          "isCorrect": true
+        },
+        {
+          "content": "X-Ray",
+          "isCorrect": false
+        },
+        {
+          "content": "DynamoDB",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q34. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?",
+      "answers": [
+        {
+          "content": "in the Lambda function code",
+          "isCorrect": false
+        },
+        {
+          "content": "in a Lambda environment variable",
+          "isCorrect": true
+        },
+        {
+          "content": "in the Lambda tags",
+          "isCorrect": false
+        },
+        {
+          "content": "in another S3 bucket",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q35. What action is needed before you can test a Lambda?",
+      "answers": [
+        {
+          "content": "Deploy the Lambda",
+          "isCorrect": false
+        },
+        {
+          "content": "Export the function",
+          "isCorrect": false
+        },
+        {
+          "content": "none of these answers",
+          "isCorrect": false
+        },
+        {
+          "content": "Configure a test event",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q36. What kind of packages can you use with Node.js for Lambdas?",
+      "answers": [
+        {
+          "content": "Fleece",
+          "isCorrect": false
+        },
+        {
+          "content": "NPM",
+          "isCorrect": true
+        },
+        {
+          "content": "none of these answers",
+          "isCorrect": false
+        },
+        {
+          "content": "Pod",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q37. Lambdas are monitored by default using which service?",
+      "answers": [
+        {
+          "content": "CloudTrail",
+          "isCorrect": false
+        },
+        {
+          "content": "CloudWatch",
+          "isCorrect": true
+        },
+        {
+          "content": "CloudFormation",
+          "isCorrect": false
+        },
+        {
+          "content": "LogWatch",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q38. What can trigger a Lambda function execution?",
+      "answers": [
+        {
+          "content": "a table definition",
+          "isCorrect": false
+        },
+        {
+          "content": "queue isolation",
+          "isCorrect": false
+        },
+        {
+          "content": "STS Write",
+          "isCorrect": false
+        },
+        {
+          "content": "an SNS topic",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q39. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?",
+      "answers": [
+        {
+          "content": "POST",
+          "isCorrect": false
+        },
+        {
+          "content": "\"All object create events\"",
+          "isCorrect": false
+        },
+        {
+          "content": "PUT",
+          "isCorrect": true
+        },
+        {
+          "content": "COPY",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q40. To make Lambdas more testable, it is AWS best practice to separate which of these?",
+      "answers": [
+        {
+          "content": "Lambda configuration from logging code",
+          "isCorrect": false
+        },
+        {
+          "content": "Lambda handler from logging code",
+          "isCorrect": false
+        },
+        {
+          "content": "Lambda handler from core logic",
+          "isCorrect": true
+        },
+        {
+          "content": "Lambda configuration from core logic",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q41. What is included in an exported Lambda deployment package?",
+      "answers": [
+        {
+          "content": "YAML definition",
+          "isCorrect": false
+        },
+        {
+          "content": "CloudFormation stack configuration",
+          "isCorrect": false
+        },
+        {
+          "content": "SAML deployment stack",
+          "isCorrect": false
+        },
+        {
+          "content": "Zip file of all related files",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q42. When can you change the execution role of a Lambda?",
+      "answers": [
+        {
+          "content": "only at creation",
+          "isCorrect": false
+        },
+        {
+          "content": "only before deployment",
+          "isCorrect": false
+        },
+        {
+          "content": "never",
+          "isCorrect": false
+        },
+        {
+          "content": "anytime via configuration",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q43. What is the relationship between SAM template and CloudFormation template files?",
+      "answers": [
+        {
+          "content": "SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template.",
+          "isCorrect": false
+        },
+        {
+          "content": "SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.",
+          "isCorrect": true
+        },
+        {
+          "content": "CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.",
+          "isCorrect": false
+        },
+        {
+          "content": "SAM templates are a different name for CloudFormation templates. Both template types include the same resource types.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q44. What service deploys Lambdas regionally?",
+      "answers": [
+        {
+          "content": "EdgeCloud",
+          "isCorrect": false
+        },
+        {
+          "content": "CloudEdge",
+          "isCorrect": false
+        },
+        {
+          "content": "CloudFront",
+          "isCorrect": true
+        },
+        {
+          "content": "CloudStack",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q45. What programming language does AWS Lambda support?",
+      "answers": [
+        {
+          "content": "custom",
+          "isCorrect": false
+        },
+        {
+          "content": "all of these answers",
+          "isCorrect": true
+        },
+        {
+          "content": "Java",
+          "isCorrect": false
+        },
+        {
+          "content": "Ruby",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q46. You need to setup a mechanism to put controls in place to notify you when you have a spike in Lambda concurrency. What should you do?",
+      "answers": [
+        {
+          "content": "Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.",
+          "isCorrect": false
+        },
+        {
+          "content": "Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.",
+          "isCorrect": true
+        },
+        {
+          "content": "Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs.",
+          "isCorrect": false
+        },
+        {
+          "content": "Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q47. You want to minimize cold start time for your Lambda. What do you do?",
+      "answers": [
+        {
+          "content": "Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.",
+          "isCorrect": true
+        },
+        {
+          "content": "Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored.",
+          "isCorrect": false
+        },
+        {
+          "content": "Do nothing. AWS minimizes cols start time by default.",
+          "isCorrect": false
+        },
+        {
+          "content": "Create a warm-up Lambda that calls your Lambda every minute",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q48. When is Lambda code stored encrypted?",
+      "answers": [
+        {
+          "content": "at rest",
+          "isCorrect": true
+        },
+        {
+          "content": "at runtime",
+          "isCorrect": false
+        },
+        {
+          "content": "at deployment",
+          "isCorrect": false
+        },
+        {
+          "content": "non of these answers",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q49. When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??",
+      "answers": [
+        {
+          "content": "at the function level",
+          "isCorrect": false
+        },
+        {
+          "content": "at the alias or function level",
+          "isCorrect": false
+        },
+        {
+          "content": "at the version, alias, or function level",
+          "isCorrect": true
+        },
+        {
+          "content": "at the version or function level",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)",
+      "answers": [
+        {
+          "content": "Kinesis, S3, and SQS",
+          "isCorrect": false
+        },
+        {
+          "content": "Kinesis, S3, and SNS",
+          "isCorrect": false
+        },
+        {
+          "content": "Kinesis, DynamoDB, and SNS",
+          "isCorrect": false
+        },
+        {
+          "content": "Kinesis, DynamoDB, and SQS",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q51. Via what can a Lambda be called?",
+      "answers": [
+        {
+          "content": "all of these answers",
+          "isCorrect": true
+        },
+        {
+          "content": "a DynamoDB trigger",
+          "isCorrect": false
+        },
+        {
+          "content": "an API Gateway",
+          "isCorrect": false
+        },
+        {
+          "content": "an S3 bucket event",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "52. which is use case of lambda ?",
+      "answers": [
+        {
+          "content": "Image processing",
+          "isCorrect": false
+        },
+        {
+          "content": "web application",
+          "isCorrect": false
+        },
+        {
+          "content": "both",
+          "isCorrect": true
+        },
+        {
+          "content": "Neither 1st and 2nd",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q53. Events are AWS resources that trigger the Lambda function. What data type is the SAM file Events property?",
+      "answers": [
+        {
+          "content": "Integer",
+          "isCorrect": false
+        },
+        {
+          "content": "Float",
+          "isCorrect": false
+        },
+        {
+          "content": "Array",
+          "isCorrect": true
+        },
+        {
+          "content": "String",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q54. A company is using an API built using Amazon Lambda, Amazon API Gateway, and Amazon DynamoDB in production. The developer has observed high latency during peak periods. Which approach would best resolve the issue?",
+      "answers": [
+        {
+          "content": "Increase the Lambda function timeout",
+          "isCorrect": false
+        },
+        {
+          "content": "Route traffic to API Gateway using a Route 53 alias",
+          "isCorrect": false
+        },
+        {
+          "content": "Disable payload compression for the API",
+          "isCorrect": false
+        },
+        {
+          "content": "Enable API Gateway stage-level caching",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q55. The AWS Serverless Application Model (AWS SAM) is a model that \\_\\_\\_\\_ .",
+      "answers": [
+        {
+          "content": "defines serverless applications",
+          "isCorrect": true
+        },
+        {
+          "content": "associates permissions policies",
+          "isCorrect": false
+        },
+        {
+          "content": "creates Lambda functions",
+          "isCorrect": false
+        },
+        {
+          "content": "packages deployment artifacts",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q56. The code that you want AWS Lambda to invoke as per some defined triggers is known as \\_.",
+      "answers": [
+        {
+          "content": "the event source",
+          "isCorrect": false
+        },
+        {
+          "content": "the downstream resource",
+          "isCorrect": false
+        },
+        {
+          "content": "the log stream",
+          "isCorrect": false
+        },
+        {
+          "content": "the Lambda function",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q57. A developer has created a Lambda function to scrub real-time data of extraneous information and then send the scrubbed data to Kinesis for further processing and storage. Some of the data showing up in Kinesis seems to be inaccurate. What's the best way for the developer to debug this?",
+      "answers": [
+        {
+          "content": "Look directly at the Lambda Logs in CloudWatch",
+          "isCorrect": false
+        },
+        {
+          "content": "Send the Lambda failures to a Dead Letter Queue",
+          "isCorrect": false
+        },
+        {
+          "content": "Use AWS X-Ray to step through the function",
+          "isCorrect": true
+        },
+        {
+          "content": "Use Kinesis to write their own custom logging tool",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q58. Lambdas can be created \\_.",
+      "answers": [
+        {
+          "content": "All of these answers",
+          "isCorrect": true
+        },
+        {
+          "content": "From scratch",
+          "isCorrect": false
+        },
+        {
+          "content": "From the app repository",
+          "isCorrect": false
+        },
+        {
+          "content": "Using a blueprint",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q59. You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?",
+      "answers": [
+        {
+          "content": "Enable tracing, rerun the lambdas, and view in the lambda console",
+          "isCorrect": true
+        },
+        {
+          "content": "View the logs in CloudTrail",
+          "isCorrect": false
+        },
+        {
+          "content": "View the logs in CloudWatch",
+          "isCorrect": false
+        },
+        {
+          "content": "Enable tracing, rerun the Lambdas, and view in the X-Ray console",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q60. Which tool would you use to test a Lambda locally?",
+      "answers": [
+        {
+          "content": "AWS SAM",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS CLI",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS CloudFormation",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS SAM CLI",
+          "isCorrect": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q61. Your function failed to execute due to a timeout. What type of error is this?",
+      "answers": [
+        {
+          "content": "Caller",
+          "isCorrect": false
+        },
+        {
+          "content": "Runtime",
+          "isCorrect": true
+        },
+        {
+          "content": "Request",
+          "isCorrect": false
+        },
+        {
+          "content": "Account",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q62. A company will be modernizing their application which is currently running on Amazon Elastic Cloud Compute (EC2) instances. They have experience with scaling this infrastructure using Amazon EC2 Autoscaling. They want to move to serverless infrastructure consisting of an Amazon API Gateway that triggers Lambda functions. They are consulting you about scaling this new infrastructure. What should the company consider in order to make sure the serverless infrastructure scales to their needs?",
+      "answers": [
+        {
+          "content": "Enable Auto Scaling Groups for AWS Lambda to ensure that enough Lambda functions are ready to handle the incoming requests",
+          "isCorrect": false
+        },
+        {
+          "content": "Throttle Lambda functions by configuring reserved concurrency, sending the excess traffic to Dead Letter Queues (DLQ) that will be handled when the request volume reduces.",
+          "isCorrect": false
+        },
+        {
+          "content": "Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact",
+          "isCorrect": true
+        },
+        {
+          "content": "Do nothing. API Gateway and AWS Lambda are managed services that have built-in horizontal scaling, security, and high availability to handle unlimited amount of requests",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q63. Can we use pakages with AWS Lambda?",
+      "answers": [
+        {
+          "content": "No, AWS Lambda does not support the use of external packages.",
+          "isCorrect": false
+        },
+        {
+          "content": "Yes, AWS Lambda supports the use of custom and NPM packages",
+          "isCorrect": true
+        },
+        {
+          "content": "AWS Lambda only supports built-in packages.",
+          "isCorrect": false
+        },
+        {
+          "content": "Packages can be used but require additional fees.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q64. Are AWS Lambda functions available and to what extent?",
+      "answers": [
+        {
+          "content": "AWS Lambda functions are available 24/7 without any limitations.",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS Lambda functions are available but may experience scheduled downtimes.",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS Lambda functions are highly available with redundancy and replications.",
+          "isCorrect": true
+        },
+        {
+          "content": "AWS Lambda functions are available only during business hours.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q65. Is there any default limit to be applied at a functional level?",
+      "answers": [
+        {
+          "content": "Yes, there is a default limit to be applied at a functional level.",
+          "isCorrect": false
+        },
+        {
+          "content": "No, there is no default limit to be applied at a functional level.",
+          "isCorrect": true
+        },
+        {
+          "content": "The default limit depends on the AWS Lambda service plan.",
+          "isCorrect": false
+        },
+        {
+          "content": "Functional limits are set by users during configuration.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q66. How long can an AWS Lambda function execute?",
+      "answers": [
+        {
+          "content": "60 seconds",
+          "isCorrect": false
+        },
+        {
+          "content": "300 seconds",
+          "isCorrect": true
+        },
+        {
+          "content": "600 seconds",
+          "isCorrect": false
+        },
+        {
+          "content": "30 seconds",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q67. How does AWS Lambda secure my code?",
+      "answers": [
+        {
+          "content": "AWS Lambda stores code in plaintext without encryption",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS Lambda encrypts and stores it in Amazon S3.",
+          "isCorrect": true
+        },
+        {
+          "content": "AWS Lambda does not provide any security measures for code.",
+          "isCorrect": false
+        },
+        {
+          "content": "AWS Lambda relies on third-party security tools for code protection.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q68. Which languages are supported by AWS Lambda?",
+      "answers": [
+        {
+          "content": "Python, C#, JavaScript and Java",
+          "isCorrect": true
+        },
+        {
+          "content": "Ruby, PHP, Swift",
+          "isCorrect": false
+        },
+        {
+          "content": "C++ and Rust",
+          "isCorrect": false
+        },
+        {
+          "content": "# HTML and CSS",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q69. What does AWS Lambda mean?",
+      "answers": [
+        {
+          "content": "a) AWS Lambda is a database service offered by AWS.",
+          "isCorrect": false
+        },
+        {
+          "content": "b) AWS Lambda is a serverless computing service provided by AWS.",
+          "isCorrect": true
+        },
+        {
+          "content": "c) AWS Lambda is a machine learning framework developed by AWS.",
+          "isCorrect": false
+        },
+        {
+          "content": "d) AWS Lambda is an IoT platform developed by AWS.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q70. What restrictions apply to AWS Lambda function code?",
+      "answers": [
+        {
+          "content": "a) Lambda imposes restrictions on the use of outbound network connections.",
+          "isCorrect": true
+        },
+        {
+          "content": "b) Lambda imposes restrictions on trace calls for debugging.",
+          "isCorrect": false
+        },
+        {
+          "content": "c) Lambda allows unlimited TCP port 25 traffic.",
+          "isCorrect": false
+        },
+        {
+          "content": "d) Lambda imposes restrictions on the execution time of functions.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q71. How long can an AWS Lambda function execute?",
+      "answers": [
+        {
+          "content": "a) 60 seconds",
+          "isCorrect": false
+        },
+        {
+          "content": "b) 300 seconds",
+          "isCorrect": true
+        },
+        {
+          "content": "c) 600 seconds",
+          "isCorrect": false
+        },
+        {
+          "content": "d) 30 seconds",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q72. How does AWS Lambda secure my code?",
+      "answers": [
+        {
+          "content": "a) AWS Lambda stores code in plaintext without encryption.",
+          "isCorrect": false
+        },
+        {
+          "content": "b) AWS Lambda encrypts code and stores it in Amazon S3.",
+          "isCorrect": true
+        },
+        {
+          "content": "c) AWS Lambda does not provide any security measures for code.",
+          "isCorrect": false
+        },
+        {
+          "content": "d) AWS Lambda relies on third-party security tools for code protection.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q73. Which languages are supported by AWS Lambda?",
+      "answers": [
+        {
+          "content": "a) Python, C#, JavaScript, and Java",
+          "isCorrect": true
+        },
+        {
+          "content": "b) Ruby, PHP, and Swift",
+          "isCorrect": false
+        },
+        {
+          "content": "c) C++ and Rust",
+          "isCorrect": false
+        },
+        {
+          "content": "d) HTML and CSS",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q75. What is the definition of Auto-Scaling?",
+      "answers": [
+        {
+          "content": "a) Auto-Scaling is a feature that automatically scales AWS Lambda functions.",
+          "isCorrect": false
+        },
+        {
+          "content": "b) Auto-Scaling is a feature that automatically scales AWS EC2 instances.",
+          "isCorrect": true
+        },
+        {
+          "content": "c) Auto-Scaling is a feature that automatically scales AWS S3 storage.",
+          "isCorrect": false
+        },
+        {
+          "content": "d) Auto-Scaling is a feature that automatically scales AWS RDS databases.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q76. Is the infrastructure accessible on which the AWS Lambda runs?",
+      "answers": [
+        {
+          "content": "a) Yes, users have full access to the underlying infrastructure.",
+          "isCorrect": false
+        },
+        {
+          "content": "b) No, AWS Lambda abstracts the underlying infrastructure and does not provide access.",
+          "isCorrect": true
+        },
+        {
+          "content": "c) Users have access to infrastructure but with limited permissions.",
+          "isCorrect": false
+        },
+        {
+          "content": "d) Users can request access to infrastructure from AWS support.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q77. Can I use packages with AWS Lambda?",
+      "answers": [
+        {
+          "content": "a) No, AWS Lambda does not support the use of external packages.",
+          "isCorrect": false
+        },
+        {
+          "content": "b) Yes, AWS Lambda supports the use of custom and NPM packages.",
+          "isCorrect": true
+        },
+        {
+          "content": "c) AWS Lambda only supports built-in AWS packages.",
+          "isCorrect": false
+        },
+        {
+          "content": "d) Packages can be used but require additional fees.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q78. Are AWS Lambda functions available and to what extent?",
+      "answers": [
+        {
+          "content": "a) AWS Lambda functions are available 24/7 without any limitations.",
+          "isCorrect": false
+        },
+        {
+          "content": "b) AWS Lambda functions are available but may experience scheduled downtimes.",
+          "isCorrect": false
+        },
+        {
+          "content": "c) AWS Lambda functions are highly available with redundancy and replication.",
+          "isCorrect": true
+        },
+        {
+          "content": "d) AWS Lambda functions are available only during business hours.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q79. Is there any default limit to be applied at a functional level?",
+      "answers": [
+        {
+          "content": "a) Yes, there is a default limit applied at a functional level.",
+          "isCorrect": false
+        },
+        {
+          "content": "b) No, there is no default limit applied at a functional level.",
+          "isCorrect": true
+        },
+        {
+          "content": "c) The default limit depends on the AWS Lambda service plan.",
+          "isCorrect": false
+        },
+        {
+          "content": "d) Functional limits are set by users during configuration.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "content": "Q80. You are using lambda (with large ram allocations) to process videos uploaded to S3 and to convert from their video format to H264. However the operation fails when dealing with particularly large video files. What is the cause of this?",
+      "answers": [
+        {
+          "content": "The default 5 mintutes timeout.",
+          "isCorrect": true
+        },
+        {
+          "content": "Lambda does not allow vedio encoding.",
+          "isCorrect": false
+        },
+        {
+          "content": "s3 transfer bottlenecks",
+          "isCorrect": false
+        },
+        {
+          "content": "s3 cannot talk to Lambda",
+          "isCorrect": false
+        }
+      ],
+      "explanation": ""
+    }
+  ]
+}
